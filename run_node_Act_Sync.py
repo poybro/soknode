@@ -44,7 +44,7 @@ LIVE_NETWORK_CONFIG_FILE = os.path.join(project_root, 'live_network_nodes.json')
 
 # === [NÂNG CẤP] Thêm cấu hình cho Seeder Node ===
 # QUAN TRỌNG: Hãy thay đổi IP này thành địa chỉ IP thực tế của máy đang chạy run_seeder_node.py
-SEEDER_NODE_URL = "http://192.168.1.169:8080" 
+SEEDER_NODE_URL = "http://192.168.1.19:8080" 
 
 # --- BỘ NÃO P2P LAI (HYBRID) ĐÃ ĐƯỢC NÂNG CẤP ---
 class HybridP2PManager:
